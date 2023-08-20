@@ -40,6 +40,9 @@ body {
     gap: 20px;
   
   }
+  .navbar-mid-buttons p{
+    color: aliceblue;
+  }
   
   .navbar-side-buttons {
     position: relative;
@@ -101,7 +104,7 @@ body {
     position: relative;
     color: white;
     background-color: #f5d020;
-    background-image: linear-gradient(315deg, #f5d020 0%, #f53803 74%);
+    background-image: linear-gradient(315deg, #f52083 0%, #d53a0f 74%);
     border-radius: 50%;
     width: 50px;
     height: 50px;

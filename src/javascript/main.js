@@ -1,8 +1,8 @@
 const navNavbar = document.getElementById("nav-navbar");
-const searchBox = document.getElementById("text-container");
-const searchBtn = document.getElementById("search-bar");
-const closeBtn = document.getElementById("close-button");
-const dropDownBtn = document.getElementById("drop-down");
+const searchBox = document.getElementById("textBox");
+const searchBtn = document.getElementById("searchBox");
+const closeBtn = document.getElementById("closeButton");
+const dropDownBtn = document.getElementById("dropDown");
 
 navNavbar.addEventListener("click", () => {
   dropDownBtn.classList.toggle("dropdown-container");
