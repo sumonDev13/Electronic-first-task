@@ -5,7 +5,7 @@ body {
     background-color: rgba(2, 117, 135, 0.932);
   }
   
-  .banner {
+  .hero {
     position: relative;
     z-index: -20;
     width: 100%;
@@ -34,13 +34,13 @@ body {
     color: gray;
   }
   
-  .navbar-mid-buttons {
+  .center-buttons {
     display: flex;
     flex-direction: row;
     gap: 20px;
   
   }
-  .navbar-mid-buttons p{
+  .center-buttons p{
     color: aliceblue;
   }
   
@@ -53,7 +53,7 @@ body {
     font-size: xx-large;
   }
   
-  .secondary-navbar {
+  .down-nav {
     position: absolute;
     display: flex;
     flex-direction: row;
@@ -67,7 +67,7 @@ body {
   }
 
   @media screen and (max-width: 768px) {
-    .secondary-navbar {
+    .down-nav {
       top: 80px;
     }
   }
@@ -90,7 +90,7 @@ body {
     border-radius: 20px;
   }
   
-  .secondary-navbar-item {
+  .down-nav-item {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -103,7 +103,7 @@ body {
   .search-bar {
     position: relative;
     color: white;
-    background-color: #f5d020;
+    background-color: #20f5ae;
     background-image: linear-gradient(315deg, #f52083 0%, #d53a0f 74%);
     border-radius: 50%;
     width: 50px;
@@ -127,8 +127,8 @@ body {
     left: 0;
     right: 0;
     margin: auto;
-    background-color: #f5d020;
-    background-image: linear-gradient(315deg, #f5d020 0%, #f53803 74%);
+    background-color: #20f5b9;
+    background-image: linear-gradient(315deg, #f56e20 0%, #c5674d 74%);
     border-radius: 20px;
     padding: 0px 20px;
     p{
