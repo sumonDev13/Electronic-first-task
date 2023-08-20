@@ -1,8 +1,18 @@
+$hero-color: rgba(2, 117, 135, 0.932);
+$font: Arial, sans-serif;
+$nav-color:gray;
+$down-nav:white;
+$child-nav:rgba(255, 255, 255, 0.2);
+$back-image:linear-gradient(315deg, #f52083 0%, #d53a0f 74%);
+
+
+
+
 body {
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
-    background-color: rgba(2, 117, 135, 0.932);
+    font-family: $font;
+    background-color:$hero-color;
   }
   
   .hero {
@@ -31,7 +41,7 @@ body {
     background-color: transparent;
     padding-left: 30px;
     padding-right: 50px;
-    color: gray;
+    color: $nav-color;
   }
   
   .center-buttons {
@@ -41,13 +51,13 @@ body {
   
   }
   .center-buttons p{
-    color: aliceblue;
+    color: $down-nav;
   }
   
   .navbar-side-buttons {
     position: relative;
     display: flex;
-    color: white;
+    color: $down-nav;
     margin-right: 70px;
     gap: 40px;
     font-size: xx-large;
@@ -63,7 +73,7 @@ body {
   
     margin: auto;
     top: 60px;
-    color: white;
+    color: $down-nav;
   }
 
   @media screen and (max-width: 768px) {
@@ -85,7 +95,7 @@ body {
   .child-navbar{
     display: flex;
     flex-direction: row;
-    background: rgba(255, 255, 255, 0.2);
+    background: $child-nav;
     backdrop-filter: blur(10px);
     border-radius: 20px;
   }
@@ -104,7 +114,7 @@ body {
     position: relative;
     color: white;
     background-color: #20f5ae;
-    background-image: linear-gradient(315deg, #f52083 0%, #d53a0f 74%);
+    background-image: $back-image;
     border-radius: 50%;
     width: 50px;
     height: 50px;
@@ -128,7 +138,7 @@ body {
     right: 0;
     margin: auto;
     background-color: #20f5b9;
-    background-image: linear-gradient(315deg, #f56e20 0%, #c5674d 74%);
+    background-image: $back-image;
     border-radius: 20px;
     padding: 0px 20px;
     p{
@@ -281,7 +291,7 @@ body {
     font-weight: 800;
     border-radius: 10px;
     color: white;
-    background-color: rgb(55, 52, 51);
+    background-image:$back-image;
     display: flex;
     justify-content: center;
     align-items: center;
