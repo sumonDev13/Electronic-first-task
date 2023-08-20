@@ -1,27 +1,27 @@
 const navNavbar = document.getElementById("nav-navbar");
 const searchBox = document.getElementById("textBox");
-const searchBtn = document.getElementById("searchBox");
-const closeBtn = document.getElementById("closeButton");
-const dropDownBtn = document.getElementById("dropDown");
+const searchButton = document.getElementById("searchBox");
+const closeButton = document.getElementById("closeButton");
+const dropDownButton = document.getElementById("dropDown");
 
 navNavbar.addEventListener("click", () => {
-  dropDownBtn.classList.toggle("dropdown-container");
+  dropDownButton.classList.toggle("dropdown-container");
 
-  if (dropDownBtn.style.display == "none") {
-    dropDownBtn.style.display = "flex";
+  if (dropDownButton.style.display == "none") {
+    dropDownButton.style.display = "flex";
   } else {
-    dropDownBtn.style.display = "none";
+    dropDownButton.style.display = "none";
   }
 });
 
-searchBtn.addEventListener("click", () => {
+searchButton.addEventListener("click", () => {
   navNavbar.style.display = "none";
-  searchBtn.style.display = "none";
+  searchButton.style.display = "none";
   searchBox.style.display = "flex";
 });
 
-closeBtn.addEventListener("click", () => {
+closeButton.addEventListener("click", () => {
   navNavbar.style.display = "flex";
-  searchBtn.style.display = "flex";
+  searchButton.style.display = "flex";
   searchBox.style.display = "none";
 });
