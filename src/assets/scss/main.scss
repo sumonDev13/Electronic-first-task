@@ -254,6 +254,10 @@ body {
     gap: 10px;
 
 }
+.dropdown-container-content :hover{
+  background-color: rgba(156, 148, 148, 0.364);
+}
+
 
 @media screen and (max-width: 768px) {
     .dropdown-container-content {
@@ -268,6 +272,7 @@ body {
     flex-direction: row;
     gap: 20px;
 }
+
 
 .product-list {
     max-width: 100vw;
